@@ -61,4 +61,9 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation "com.google.android.material:material:$material_version"
     implementation "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+
+    androidTestImplementation 'com.android.support.test.espresso:espresso-contrib:3.4.0'
+    androidTestImplementation 'androidx.navigation:navigation-testing:2.5.1'
+
+    debugImplementation 'androidx.fragment:fragment-testing:1.5.1'
 }
